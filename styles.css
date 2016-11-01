@@ -1,3 +1,26 @@
+button {
+  border: 1px solid #dddddd;
+  background-color: #aaaaaa;
+  border-radius: 5px; }
 
+ul {
+  text-decoration: none;
+  display: inline; }
+
+li {
+  border-width: 500px;
+  border-radius: 5px;
+  background-color: #dddddd;
+  text-decoration: none;
+  margin: 10px 0 10px 0; }
+
+img {
+  width: 100px; }
+
+p {
+  font-size: 75px;
+  color: #aaaaaa;
+  text-align: center;
+  margin: 0; }
 
 /*# sourceMappingURL=styles.css.map */
