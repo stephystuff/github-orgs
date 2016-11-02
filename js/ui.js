@@ -11,5 +11,5 @@
     document.querySelector('ul').appendChild(listItem);
   }
 
-window.ns.addOneItemToUl = something
+  window.ns.addOneItemToUl = something
 })();
