@@ -13,13 +13,10 @@
       }
     })
     .done(function handleSuccess(data){
-      $.each(data, function addOneItemToUl(each){
-
+      data.forEach(function addOneItemToUl(each){
+        window.ns.addOneItemToUl();
+        console.log(each);
       })
-      // data.forEach(function addOneItemToUl(each){
-      //   window.ns.addOneItemToUl();
-      //   console.log(each);
-      //})
 
     })
     .fail(function handleFailure(xhr) {
