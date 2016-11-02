@@ -1,6 +1,7 @@
 (function(){
   window.ns = window.ns || {};
 
+// Function for token authorization to receive GitHub data
   $('button')
   .on('click', function getAuthorization (eventObj){
     var myToken = $('input').val();
@@ -13,6 +14,8 @@
       }
     })
     .done(function handleSuccess(data){
+       
+
       data.forEach(function addOneItemToUl(each){
         window.ns.addOneItemToUl();
         console.log(each);
